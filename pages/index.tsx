@@ -1,12 +1,9 @@
 // pages/index.tsx
-import React from 'react';
-import GamePage from './Game';
+import React from "react";
+import GamePage from "./game";
 
 const HomePage = () => {
-  return (
-  
-    <GamePage/>
-  );
+  return <GamePage />;
 };
 
 export default HomePage;
