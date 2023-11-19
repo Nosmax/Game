@@ -1,8 +1,9 @@
+// pages/index.tsx
 import React from "react";
-import GamePage from "./game";
+import Game from "./Game";
 
 const HomePage = () => {
-  return <GamePage />;
+  return <Game />;
 };
 
 export default HomePage;
